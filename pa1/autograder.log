@@ -1,0 +1,96 @@
+2023-10-14 01:31:21,469 INFO     Starting autograder PA1 release 1. Library 3.3.0
+2023-10-14 01:31:21,470 DEBUG    Data directory: '/common/home/wht12/Documents/pa1-grader/pa1/data'
+2023-10-14 01:31:21,470 DEBUG    Verbosity level: 0
+2023-10-14 01:31:21,470 DEBUG    Source directory: '/common/home/wht12/Documents/pa1-grader/pa1/src'
+2023-10-14 01:31:21,470 DEBUG    Build directory: '/common/home/wht12/Documents/pa1-grader/pa1/build'
+2023-10-14 01:31:21,471 DEBUG    gather phase
+2023-10-14 01:31:21,471 INFO     Gathering tests for 'rot13'
+2023-10-14 01:31:21,471 INFO     Total tests for rot13: 0
+2023-10-14 01:31:21,471 INFO     Gathering tests for 'sorta'
+2023-10-14 01:31:21,471 INFO     Total tests for sorta: 0
+2023-10-14 01:31:21,471 INFO     Gathering tests for 'sudoku'
+2023-10-14 01:31:21,471 INFO     Total tests for sudoku: 0
+2023-10-14 01:31:21,471 INFO     Gathering tests for 'list'
+2023-10-14 01:31:21,471 INFO     Total tests for list: 0
+2023-10-14 01:31:21,471 INFO     Gathering tests for 'mexp'
+2023-10-14 01:31:21,472 INFO     Total tests for mexp: 0
+2023-10-14 01:31:21,472 INFO     Gathering tests for 'bst'
+2023-10-14 01:31:21,472 INFO     Total tests for bst: 10
+2023-10-14 01:31:21,472 INFO     Total tests: 10
+2023-10-14 01:31:21,473 DEBUG    build_dir prep phase
+2023-10-14 01:31:21,473 DEBUG    build phase
+2023-10-14 01:31:21,473 DEBUG    Running ['make']
+2023-10-14 01:31:21,477 DEBUG    Response
+b"make: 'bst' is up to date.\n"
+2023-10-14 01:31:21,477 DEBUG    test phase
+2023-10-14 01:31:21,478 DEBUG    Running bst:1: ['./bst']
+2023-10-14 01:31:21,478 DEBUG    Moving to '/common/home/wht12/Documents/pa1-grader/pa1/build/bst'
+2023-10-14 01:31:21,479 DEBUG    Opening input file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/test.1.01.txt'
+2023-10-14 01:31:21,488 DEBUG    Complete. Code 0
+inserted
+2023-10-14 01:31:21,488 DEBUG    Opening reference file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/ref.1.01.txt'
+2023-10-14 01:31:21,489 DEBUG    out 1 lines; ref 3 lines
+2023-10-14 01:31:21,489 DEBUG    Running bst:1: ['./bst']
+2023-10-14 01:31:21,489 DEBUG    Moving to '/common/home/wht12/Documents/pa1-grader/pa1/build/bst'
+2023-10-14 01:31:21,490 DEBUG    Opening input file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/test.1.02.txt'
+2023-10-14 01:31:21,499 DEBUG    Complete. Code 0
+inserted
+2023-10-14 01:31:21,499 DEBUG    Opening reference file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/ref.1.02.txt'
+2023-10-14 01:31:21,501 DEBUG    out 1 lines; ref 7 lines
+2023-10-14 01:31:21,501 DEBUG    Running bst:1: ['./bst']
+2023-10-14 01:31:21,501 DEBUG    Moving to '/common/home/wht12/Documents/pa1-grader/pa1/build/bst'
+2023-10-14 01:31:21,502 DEBUG    Opening input file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/test.1.03.txt'
+2023-10-14 01:31:21,511 DEBUG    Complete. Code 0
+inserted
+2023-10-14 01:31:21,511 DEBUG    Opening reference file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/ref.1.03.txt'
+2023-10-14 01:31:21,512 DEBUG    out 1 lines; ref 6 lines
+2023-10-14 01:31:21,512 DEBUG    Running bst:1: ['./bst']
+2023-10-14 01:31:21,512 DEBUG    Moving to '/common/home/wht12/Documents/pa1-grader/pa1/build/bst'
+2023-10-14 01:31:21,513 DEBUG    Opening input file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/test.1.04.txt'
+2023-10-14 01:31:21,522 DEBUG    Complete. Code 0
+
+2023-10-14 01:31:21,522 DEBUG    Opening reference file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/ref.1.04.txt'
+2023-10-14 01:31:21,523 DEBUG    out 1 lines; ref 9 lines
+2023-10-14 01:31:21,523 DEBUG    Running bst:1: ['./bst']
+2023-10-14 01:31:21,524 DEBUG    Moving to '/common/home/wht12/Documents/pa1-grader/pa1/build/bst'
+2023-10-14 01:31:21,525 DEBUG    Opening input file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/test.1.05.txt'
+2023-10-14 01:31:21,534 DEBUG    Complete. Code 0
+inserted
+2023-10-14 01:31:21,534 DEBUG    Opening reference file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/ref.1.05.txt'
+2023-10-14 01:31:21,535 DEBUG    out 1 lines; ref 8 lines
+2023-10-14 01:31:21,535 DEBUG    Running bst:2: ['./bst']
+2023-10-14 01:31:21,535 DEBUG    Moving to '/common/home/wht12/Documents/pa1-grader/pa1/build/bst'
+2023-10-14 01:31:21,536 DEBUG    Opening input file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/test.2.01.txt'
+2023-10-14 01:31:21,545 DEBUG    Complete. Code 0
+inserted
+2023-10-14 01:31:21,545 DEBUG    Opening reference file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/ref.2.01.txt'
+2023-10-14 01:31:21,546 DEBUG    out 1 lines; ref 5 lines
+2023-10-14 01:31:21,546 DEBUG    Running bst:2: ['./bst']
+2023-10-14 01:31:21,546 DEBUG    Moving to '/common/home/wht12/Documents/pa1-grader/pa1/build/bst'
+2023-10-14 01:31:21,547 DEBUG    Opening input file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/test.2.02.txt'
+2023-10-14 01:31:21,556 DEBUG    Complete. Code 0
+inserted
+2023-10-14 01:31:21,556 DEBUG    Opening reference file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/ref.2.02.txt'
+2023-10-14 01:31:21,557 DEBUG    out 1 lines; ref 19 lines
+2023-10-14 01:31:21,557 DEBUG    Running bst:2: ['./bst']
+2023-10-14 01:31:21,557 DEBUG    Moving to '/common/home/wht12/Documents/pa1-grader/pa1/build/bst'
+2023-10-14 01:31:21,558 DEBUG    Opening input file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/test.2.03.txt'
+2023-10-14 01:31:21,567 DEBUG    Complete. Code 0
+inserted
+2023-10-14 01:31:21,567 DEBUG    Opening reference file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/ref.2.03.txt'
+2023-10-14 01:31:21,568 DEBUG    out 1 lines; ref 9 lines
+2023-10-14 01:31:21,568 DEBUG    Running bst:2: ['./bst']
+2023-10-14 01:31:21,569 DEBUG    Moving to '/common/home/wht12/Documents/pa1-grader/pa1/build/bst'
+2023-10-14 01:31:21,570 DEBUG    Opening input file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/test.2.04.txt'
+2023-10-14 01:31:21,578 DEBUG    Complete. Code 0
+inserted
+2023-10-14 01:31:21,578 DEBUG    Opening reference file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/ref.2.04.txt'
+2023-10-14 01:31:21,579 DEBUG    out 1 lines; ref 16 lines
+2023-10-14 01:31:21,579 DEBUG    Running bst:2: ['./bst']
+2023-10-14 01:31:21,580 DEBUG    Moving to '/common/home/wht12/Documents/pa1-grader/pa1/build/bst'
+2023-10-14 01:31:21,581 DEBUG    Opening input file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/test.2.05.txt'
+2023-10-14 01:31:21,589 DEBUG    Complete. Code 0
+
+2023-10-14 01:31:21,590 DEBUG    Opening reference file '/common/home/wht12/Documents/pa1-grader/pa1/data/bst/ref.2.05.txt'
+2023-10-14 01:31:21,591 DEBUG    out 1 lines; ref 8 lines
+2023-10-14 01:31:21,591 DEBUG    report phase
